@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.team-container {
+  background-color: #ffffff33;
+  border-radius: 5px;
+  background-size: cover;
+  padding: 10px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  max-width: 300px;
+  list-style: none;
+}
+@media (min-width: 768px) {
+  .team-container {
+    max-width: 400px;
+  }
+  .name {
+    font-size: 14px;
+  }
+}
+.team-card {
+  display: flex;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+}
+.name {
+  font-family: 'Bree Serif';
+  font-size: 30px;
+  color: #ffffff;
+  margin-left: 5px;
+}
